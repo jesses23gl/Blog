@@ -1,0 +1,333 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Api.Model</name>
+    </assembly>
+    <members>
+        <member name="P:Api.Model.BlogArticle.bID">
+            <summary>
+            主键
+            </summary>
+            这里之所以没用RootEntity，是想保持和之前的数据库一致，主键是bID，不是Id
+        </member>
+        <member name="P:Api.Model.BlogArticle.bsubmitter">
+            <summary>
+            创建人
+            </summary>
+        </member>
+        <member name="P:Api.Model.BlogArticle.btitle">
+            <summary>
+            标题blog
+            </summary>
+        </member>
+        <member name="P:Api.Model.BlogArticle.bcategory">
+            <summary>
+            类别
+            </summary>
+        </member>
+        <member name="P:Api.Model.BlogArticle.bcontent">
+            <summary>
+            内容
+            </summary>
+        </member>
+        <member name="P:Api.Model.BlogArticle.btraffic">
+            <summary>
+            访问量
+            </summary>
+        </member>
+        <member name="P:Api.Model.BlogArticle.bcommentNum">
+            <summary>
+            评论数量
+            </summary>
+        </member>
+        <member name="P:Api.Model.BlogArticle.bUpdateTime">
+            <summary> 
+            修改时间
+            </summary>
+        </member>
+        <member name="P:Api.Model.BlogArticle.bCreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Api.Model.BlogArticle.bRemark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:Api.Model.BlogArticle.IsDeleted">
+            <summary>
+            逻辑删除
+            </summary>
+        </member>
+        <member name="T:Api.Model.MessageModel`1">
+            <summary>
+            通用返回信息类
+            </summary>
+        </member>
+        <member name="P:Api.Model.MessageModel`1.status">
+            <summary>
+            状态码
+            </summary>
+        </member>
+        <member name="P:Api.Model.MessageModel`1.success">
+            <summary>
+            操作是否成功
+            </summary>
+        </member>
+        <member name="P:Api.Model.MessageModel`1.msg">
+            <summary>
+            返回信息
+            </summary>
+        </member>
+        <member name="P:Api.Model.MessageModel`1.msgDev">
+            <summary>
+            开发者信息
+            </summary>
+        </member>
+        <member name="P:Api.Model.MessageModel`1.response">
+            <summary>
+            返回数据集合
+            </summary>
+        </member>
+        <member name="M:Api.Model.MessageModel`1.Success(System.String)">
+            <summary>
+            返回成功
+            </summary>
+            <param name="msg">消息</param>
+            <returns></returns>
+        </member>
+        <member name="M:Api.Model.MessageModel`1.Success(System.String,`0)">
+            <summary>
+            返回成功
+            </summary>
+            <param name="msg">消息</param>
+            <param name="response">数据</param>
+            <returns></returns>
+        </member>
+        <member name="M:Api.Model.MessageModel`1.Fail(System.String)">
+            <summary>
+            返回失败
+            </summary>
+            <param name="msg">消息</param>
+            <returns></returns>
+        </member>
+        <member name="M:Api.Model.MessageModel`1.Fail(System.String,`0)">
+            <summary>
+            返回失败
+            </summary>
+            <param name="msg">消息</param>
+            <param name="response">数据</param>
+            <returns></returns>
+        </member>
+        <member name="M:Api.Model.MessageModel`1.Message(System.Boolean,System.String,`0)">
+            <summary>
+            返回消息
+            </summary>
+            <param name="success">失败/成功</param>
+            <param name="msg">消息</param>
+            <param name="response">数据</param>
+            <returns></returns>
+        </member>
+        <member name="P:Api.Model.Model.TasksQZ.Name">
+            <summary>
+            任务名称
+            </summary>
+        </member>
+        <member name="P:Api.Model.Model.TasksQZ.JobGroup">
+            <summary>
+            任务分组
+            </summary>
+        </member>
+        <member name="P:Api.Model.Model.TasksQZ.Cron">
+            <summary>
+            任务运行时间表达式
+            </summary>
+        </member>
+        <member name="P:Api.Model.Model.TasksQZ.AssemblyName">
+            <summary>
+            任务所在DLL对应的程序集名称
+            </summary>
+        </member>
+        <member name="P:Api.Model.Model.TasksQZ.ClassName">
+            <summary>
+            任务所在类
+            </summary>
+        </member>
+        <member name="P:Api.Model.Model.TasksQZ.Remark">
+            <summary>
+            任务描述
+            </summary>
+        </member>
+        <member name="P:Api.Model.Model.TasksQZ.RunTimes">
+            <summary>
+            执行次数
+            </summary>
+        </member>
+        <member name="P:Api.Model.Model.TasksQZ.BeginTime">
+            <summary>
+            开始时间
+            </summary>
+        </member>
+        <member name="P:Api.Model.Model.TasksQZ.EndTime">
+            <summary>
+            结束时间
+            </summary>
+        </member>
+        <member name="P:Api.Model.Model.TasksQZ.TriggerType">
+            <summary>
+            触发器类型（0、simple 1、cron）
+            </summary>
+        </member>
+        <member name="P:Api.Model.Model.TasksQZ.CycleRunTimes">
+            <summary>
+            循环执行次数
+            </summary>
+        </member>
+        <member name="P:Api.Model.Model.TasksQZ.IntervalSecond">
+            <summary>
+            执行间隔时间, 秒为单位
+            </summary>
+        </member>
+        <member name="P:Api.Model.Model.TasksQZ.IsStart">
+            <summary>
+            是否启动
+            </summary>
+        </member>
+        <member name="P:Api.Model.Model.TasksQZ.JobParams">
+            <summary>
+            执行传参
+            </summary>
+        </member>
+        <member name="P:Api.Model.Model.TasksQZ.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Api.Model.WeatherForecast.Date">
+            <summary>
+            时间
+            </summary>
+        </member>
+        <member name="P:Api.Model.WeatherForecast.TemperatureC">
+            <summary>
+            int
+            </summary>
+        </member>
+        <member name="P:Api.Model.ViewModel.BlogArticleViewModel.bID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Api.Model.ViewModel.BlogArticleViewModel.bsubmitter">
+            <summary>创建人
+            
+            </summary>
+        </member>
+        <member name="P:Api.Model.ViewModel.BlogArticleViewModel.btitle">
+            <summary>博客标题
+            
+            </summary>
+        </member>
+        <member name="P:Api.Model.ViewModel.BlogArticleViewModel.digest">
+            <summary>摘要
+            
+            </summary>
+        </member>
+        <member name="P:Api.Model.ViewModel.BlogArticleViewModel.previous">
+            <summary>
+            上一篇
+            </summary>
+        </member>
+        <member name="P:Api.Model.ViewModel.BlogArticleViewModel.previousID">
+            <summary>
+            上一篇id
+            </summary>
+        </member>
+        <member name="P:Api.Model.ViewModel.BlogArticleViewModel.next">
+            <summary>
+            下一篇
+            </summary>
+        </member>
+        <member name="P:Api.Model.ViewModel.BlogArticleViewModel.nextID">
+            <summary>
+            下一篇id
+            </summary>
+        </member>
+        <member name="P:Api.Model.ViewModel.BlogArticleViewModel.bcategory">
+            <summary>类别
+            
+            </summary>
+        </member>
+        <member name="P:Api.Model.ViewModel.BlogArticleViewModel.bcontent">
+            <summary>内容
+            
+            </summary>
+        </member>
+        <member name="P:Api.Model.ViewModel.BlogArticleViewModel.btraffic">
+            <summary>
+            访问量
+            </summary>
+        </member>
+        <member name="P:Api.Model.ViewModel.BlogArticleViewModel.bcommentNum">
+            <summary>
+            评论数量
+            </summary>
+        </member>
+        <member name="P:Api.Model.ViewModel.BlogArticleViewModel.bUpdateTime">
+            <summary> 修改时间
+            
+            </summary>
+        </member>
+        <member name="P:Api.Model.ViewModel.BlogArticleViewModel.bCreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Api.Model.ViewModel.BlogArticleViewModel.bRemark">
+            <summary>备注
+            
+            </summary>
+        </member>
+        <member name="T:Api.Model.ViewModel.TaskInfoDto">
+            <summary>
+            调度任务触发器信息实体
+            </summary>
+        </member>
+        <member name="P:Api.Model.ViewModel.TaskInfoDto.jobId">
+            <summary>
+            任务ID
+            </summary>
+        </member>
+        <member name="P:Api.Model.ViewModel.TaskInfoDto.jobName">
+            <summary>
+            任务名称
+            </summary>
+        </member>
+        <member name="P:Api.Model.ViewModel.TaskInfoDto.jobGroup">
+            <summary>
+            任务分组
+            </summary>
+        </member>
+        <member name="P:Api.Model.ViewModel.TaskInfoDto.triggerId">
+            <summary>
+            触发器ID
+            </summary>
+        </member>
+        <member name="P:Api.Model.ViewModel.TaskInfoDto.triggerName">
+            <summary>
+            触发器名称
+            </summary>
+        </member>
+        <member name="P:Api.Model.ViewModel.TaskInfoDto.triggerGroup">
+            <summary>
+            触发器分组
+            </summary>
+        </member>
+        <member name="P:Api.Model.ViewModel.TaskInfoDto.triggerStatus">
+            <summary>
+            触发器状态
+            </summary>
+        </member>
+    </members>
+</doc>
