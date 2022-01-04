@@ -142,3 +142,4 @@ E:\RASWCF\ConsoleApp1\WebApplication1\bin\Debug\net5.0\InitQ.dll
 E:\RASWCF\ConsoleApp1\WebApplication1\bin\Debug\net5.0\Quartz.dll
 E:\RASWCF\ConsoleApp1\WebApplication1\bin\Debug\net5.0\Api.Tasks.dll
 E:\RASWCF\ConsoleApp1\WebApplication1\bin\Debug\net5.0\Api.Tasks.pdb
+E:\RASWCF\ConsoleApp1\WebApplication1\bin\Debug\net5.0\Dockerfile
